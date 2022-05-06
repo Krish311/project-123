@@ -1,16 +1,17 @@
 h3{
-    font-size: 30px;
+    font-size: 40px;
     width: 100%;
     margin: 0px;
     box-shadow: 5px 5px 5px gray;
-    color: rgb(0, 0, 0);
+    color: white;
     background-color: orange;
     
 }
-p{
-    font-size:20px ;
-    color:rgb(0, 0, 0);
+.note{
+    font-size: 15px;
+    color: black;
 }
+
 .copy_right_footer{
     position: fixed;
     color:white;
