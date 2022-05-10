@@ -10,6 +10,9 @@ function setup(){
 }
 function draw() {
     background('#F1948A');
+    textSize(difference);
+    Fill('#FFE787');
+    text('Peter', 50, 400);
     }
     
     
@@ -22,5 +25,9 @@ function gotPoses(results)
     if(results.length > 0 )
     {
         console.log(results);
+        leftWristX = results[0].pose.leftWrist.x;
+        rightWristX = results[0].pose.rightWrist.x;
+        difference = floor(elftWristX - rightWristX);
+         console.log("leftWristX = " + leftWristX + "rightWristX = " + rightWristX + "answer = " +answer);
     }
 }
